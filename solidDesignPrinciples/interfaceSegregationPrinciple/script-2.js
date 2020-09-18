@@ -32,7 +32,7 @@ class Character extends Entity {
 }
 
 Object.assign(Character.prototype, mover)
-Object.assign(Character.prototype, attacker)
+Object.assign(Character.prototype, attacker) 
 Object.assign(Character.prototype, hasHealth)
 
 class Wall extends Entity {
